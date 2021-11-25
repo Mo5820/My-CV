@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: content-box;
+    perspective: 700px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.1s linear;
+}
+
+body{
+    background-color: #f2f3f7;
+    position: relative;
+}
+.landing{
+    background-color: rgb(238, 227, 227);
+}
+.conterner .header .logo{
+    position:relative;
+}
+
+.conterner .header .logo{
+    width:100%;
+    height: 60px;
+    position: relative;
+    background-color: rgba(240, 232, 232, 0.795);
+}
+.dark {
+    background-color: white;
+    align-items: right;   
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 1300px;
+}
+.dark1{
+    cursor: pointer;
+}
+.conterner .header .logo .D{
+    font-size: 28px;
+    font-weight: bold;
+    background-color: white;
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top:15px;
+    position: absolute;
+    text-align: center;
+}
+
+/*links*/
+.nav .meue .links{
+    list-style: none;
+    font-size: 19px;
+    margin-left: 800px;
+}
+.nav .meue .links .lii{
+    float: left;
+    color: black;
+    margin-right:20px ;
+    margin-top: 15px;
+}
+.nav .meue .links :hover{
+    transform:translate3d(0 , 0 ,20px);
+    font-weight: bold;
+}
+.conterner .content img{
+border-radius: 350px;
+}
+.conterner .content .imgg  :hover{
+    transform:translate3d(0 , 0 ,20px);
+    border: 3px solid rgb(170, 108, 108);
+}
+.content{
+    transition: all 1s linear;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    min-height:90vh ;
+    align-items: center;
+}
+.content .about{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 60px;
+}
+.content .about .name{
+    font-weight: bold;
+    font-size: 34px;
+    color: rgb(26, 92, 92);
+}
+/*add class*/
+.body2 {
+    background-color: #091c3f;
+    color:white;
+}
+.body3 {
+    background-color: #091c3fea;
+    color:white;
+}
+.logo2{
+    background-color: #0a265763;
+}
+.color{
+    color:#ced2e6;
+}
+/*media ******** responsive for backnground only*/
+@media(max-width :767px){
+    .nav .meue .links{
+        margin-left: 160px;
+    }
+    .conterner .header .logo .D{
+        margin-left: 30px;
+    }
+    .dark {
+        margin-left: 660px;
+    }
+    .content .about{
+        margin-left: 10px;
+        margin-bottom: 100px;
+        display: inline;
+    }
+    .conterner .content img{
+        border-top: 300px;
+        border-right: 400px;
+        width:300px;
+    }
+}
+
+
+@media(max-width :520px){
+    .nav .meue .links{
+        margin-left: 60px;
+        font-size:16px
+    }
+    .conterner .header .logo .D{
+        margin-left: 0px;
+    }
+    .dark {
+        margin-left: 460px;
+    }
+    .content .about{
+        margin-left: 10px;
+        margin-bottom: 100px;
+        display: inline;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .content .about .name{
+        font-size: 26px;
+        
+    }
+    .content .about{
+        font-size: 22px;
+        margin-top: -320px;
+    }
+    .conterner .content .imgg {
+        margin-left: -130px;
+    }
+
+}
+/***********skills***************/
+.skills{
+    font-size: 26px;
+    display: grid;
+    grid-template-columns:30% 30% 35%;
+    margin-top: 50px;
+    border-radius: 20px;
+    transition: all 1s linear;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+.name7{
+font-weight: bold;
+    font-size: 38px;
+    margin-left: 90px;
+    color: rgba(26, 8, 80, 0.863); 
+    padding-top:20px ;
+}
+.subtitle1{
+    font-size: 20px;
+    margin-left: 90px;
+    color: rgb(85, 81, 77);
+}
+.skill-bar {
+    width:250px;
+    height: 5px;
+    background-color: #b6cdf7;
+    display: flex;
+    float: left;
+    border-radius: 2px;
+}
+h1{
+    font-weight: bold;
+    font-size: 38px;
+    color: rgba(26, 8, 80, 0.863); 
+}
+.first-skills{
+    padding-top: 10px;
+    width:260px;
+    border:4px solid rgba(0, 0, 0, 0.521);
+    border-radius: 13px;
+    margin-left: 70px;
+    padding-left: 10px;
+}
+h3{
+    color: rgba(84, 97, 216, 0.945);
+}
+.skill-pestarge{
+    color: rgba(103, 72, 216, 0.822);
+
+}
+.first-skills div{
+    margin-top: 20px;
+}
+.secend-skills{
+    width:260px;
+    border:4px solid rgba(0, 0, 0, 0.521);
+    border-radius: 13px;
+    padding-left: 10px;
+}
+.titleskil{
+    width: 100%;
+}
+.skillp{
+    color: rgba(112, 93, 93, 0.678);
+    font-size: 24px;
+    width: 100%;
+    font-weight: lighter;
+}
+.secend-skills div{
+    margin-top: 20px;
+}
+.skill-bar .htmlwidth{
+    background-color: #285aac;
+    width:90%;
+}
+.skill-bar .html5width{
+    background-color: #285aac;
+    width:85%;
+
+}
+.skill-bar .csswidth{
+    background-color: #285aac;
+    width:90%;
+
+}
+.skill-bar .css3width{
+    background-color: #285aac;
+    width:80%;
+
+}
+.skill-bar .jswidth{
+    background-color: #285aac;
+    width:70%;
+
+}
+.skill-bar .phpwidth{
+    background-color: #285aac;
+    width:65%;
+
+}
+.skill-bar .jquerywidth{
+    background-color: #285aac;
+    width:75%;
+
+}
+.skill-bar .bootwidth{
+    background-color: #285aac;
+    width:65%;
+
+}
+.skill-bar .cwidth{
+    background-color: #285aac;
+    width:75%;
+
+}
+.skill-bar .oopwidth{
+    background-color: #285aac;
+    width:65%;
+}
+
+/************about me*************/
+.aboutme{
+    width:80%;
+    margin-left: 150px;
+    border: 2px solid rgba(255, 255, 255, 0);
+        position: relative;
+    align-items:center ;
+    margin-bottom: 0px;
+    transition: all 1s linear;
+    display: grid;
+    border-radius: 70px;
+    margin-top: 50px;
+    color: rgba(99, 97, 109, 0.952);
+    grid-template-columns: 50% 50%;
+}
+
+.aboutme .first h1{
+margin-left:-150px;
+position: relative;
+font-size: 38px;
+}
+.aboutme .aboutimg img{
+    width:400px;
+    border-radius: 90px;
+    margin-top: 120px;
+}
+.aboutme .aboutimg img:hover{
+    transform:translate3d(0 , 0 ,20px);
+    border: 3px solid rgb(170, 108, 108);
+}
+.aboutme .first{
+    width:400px;
+}
+.aboutme .first p{
+    color: rgba(99, 97, 109, 0.952);
+    font-size: 22px;
+}
+.aboutme .first h3{
+display: inline;
+color: #1f3964;
+font-size: 28px;
+}
+.aboutme .first .abouth{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+.aboutme .first span
+{
+    color: rgba(99, 97, 109, 0.952);
+}
+.cvbtn button {
+font-size: 28px;
+background-color: #091c3f;
+width: 250px;
+color: #285aac;
+text-align: center;
+border-radius: 5px;
+margin-left: 50px;
+cursor: pointer;
+}
+.cvbtn button:hover ,.btn:hover{
+    box-shadow: 5px 5px 5px #5772a5;
+}
+
+.certquelif{
+    float: left;
+}
+/* start Qulificatiobs timeline*/
+.Qualifications{
+    width:600px;
+    height:550px;
+    padding: 20px;
+    margin-left: 8q0px;
+    transition: all 1s linear;
+    border: 2px solid rgba(255, 255, 255, 0);
+        border-radius: 10px;
+        transition: all 2s ease;
+}
+.title{
+    text-align: center;
+}
+.subtitle{
+    color: rgb(173, 170, 190);
+    margin-left: 220px;
+}
+.content2{
+    display: grid;
+    grid-template-columns: 45% 4% 45%;
+    margin-left: 70px;
+}
+.medium{
+    background: #285aac;
+    height: 355px;
+    margin-top: 50px;
+    margin-left: -10px;
+    width: 4px;
+
+}
+.point1 ,.point2,.point3,.point4{
+    
+float: right;
+border-style:solid;
+border-width: 10px;
+border-color:transparent #445083 transparent transparent ;
+}
+.point2{
+    margin-top: 67px;
+    float: left;
+    border-color:transparent  transparent transparent #445083;
+}
+.point3{
+    margin-top: 80px;
+}
+.point4{
+    margin-top: 72px;
+    float: left;
+    border-color:transparent  transparent transparent #445083;
+}
+
+.cont1 ,.cont2{
+    margin-left: 50px;
+}
+.Education i ,.work i{
+    color: #285aac;
+}
+.left ,.right{
+    padding-top:30px ;
+    width: 100%;
+    cursor: pointer;
+    color: rgba(99, 97, 109, 0.952);
+
+}
+.left:hover,.right:hover{
+    color: #285aac;
+}
+/*certs background-color: #e5e5eb05;*/
+.certs{
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 100px;
+    width: 48%;
+    margin-top: 0px;
+    margin-left: 685px;
+    padding-bottom:30px;
+}
+.certs h1{
+    margin-top: 30px;
+    padding:20px;
+    font-size: 38px;
+    margin-left: 167px;
+}
+.certs img{
+    width: 600px;
+    margin-bottom: 30px;
+    margin-left: 14px;
+}
+.certs img:hover{
+    transform:translate3d(0 , 0 ,20px);
+    border: 3px solid rgb(235, 28, 28);
+    border-radius: 40px;
+}
+/*contect*/
+.contect{
+    display: grid;
+    padding-top: 30px;
+    width:98%;
+    border-radius: 30px;
+    margin-left: 1%;
+    transition: all .5s linear;
+    grid-template-columns: 50% 50%;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+form {
+    width:90%;
+    background-color: #adadbb0c;
+    border: 4px solid #e5e5eb04;
+    border:none;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    
+}
+.sendmessage form input{
+    width:70%;
+    height:15px;
+    padding: 20px;
+    font-size: 22px;
+    margin: 10px;
+    margin-left: 58px;
+    border: 2px solid #e5e5eb09;
+    border-radius: 5px;
+    background-color:#adadbb0c ;
+    border-bottom:2px solid rgba(8, 8, 34, 0.308);
+}
+.btn{
+    font-size: 28px;
+    background-color: #091c3f;
+    width: 180px;
+    color: #577bb6;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 200px;
+    cursor: pointer;
+    }
+.sendmessage form label{
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 160px;
+    padding-top: 50px;
+}
+.contectwaies{
+    margin-left: 50px;
+    font-size: 22px;
+    margin-top: 70px;
+}
+.conte{
+    margin-left: 580px;
+    font-size: 34px;
+}
+.contectwaies div:hover{
+    transform:translate3d(0 , 0 ,20px);
+}
+.footer{
+    width: 100%;
+    height: 56px;
+    background-color: #091c3f;
+    margin-bottom: 0;
+    display: grid;
+    height: 66px;
+    grid-template-columns: 40% 50%;
+}
+.linkss{
+    margin-left: 70px;
+}
+.footer i{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.linksss{
+    font-size: 22px;
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+.linksss a{
+    margin-left: 15px;
+    color: #374ca7;
+}
+.linksss a:hover ,.footer i:hover{
+    color:white;
+}
